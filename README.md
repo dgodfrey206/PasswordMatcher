@@ -1,4 +1,6 @@
-#Password Matcher
+Password Matcher
+=========
+![](https://github.com/dgodfrey206/PasswordMatcher/blob/main/output.jpg)
 
 <h2>Use of Collections</h2>
 
