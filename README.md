@@ -1,12 +1,15 @@
-#Use of Collections
+Use of Collections
+======
 
 The best Data Structure for our application is `HashSet`.
 
-#Benefits:
+Benefits:
+======
+
 Searching in O(1) time complexity
 
-##Usage:
-
+Usage:
+=======
     public static HashSet<String> passwords = new HashSet<>();
 
 We just need to populate the `HashSet` by reading all the records from the .txt
