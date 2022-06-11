@@ -2,14 +2,6 @@ Password Matcher
 =========
 ![](https://github.com/dgodfrey206/PasswordMatcher/blob/main/output.jpg)
 
-<h2>Use of Collections</h2>
-
-The best Data Structure for our application is `HashSet`.
-
-<h2>Benefits:</h2>
-
-Searching in O(1) time complexity
-
 <h2>Usage:</h2>
 
     public static HashSet<String> passwords = new HashSet<>();
