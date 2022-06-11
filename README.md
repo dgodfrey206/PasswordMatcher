@@ -1,15 +1,15 @@
-Use of Collections
-======
+#Password Matcher
+
+<h2>Use of Collections</h2>
 
 The best Data Structure for our application is `HashSet`.
 
-Benefits:
-======
+<h2>Benefits:</h2>
 
 Searching in O(1) time complexity
 
-Usage:
-=======
+<h2>Usage:</h2>
+
     public static HashSet<String> passwords = new HashSet<>();
 
 We just need to populate the `HashSet` by reading all the records from the .txt
@@ -41,7 +41,3 @@ Once It’s populated we can simply query the `HashSet` to find a specific “St
     else {
        JOptionPane.showMessageDialog(this, "Password not found !!");
     }
-
-
-
-# PasswordMatcher
