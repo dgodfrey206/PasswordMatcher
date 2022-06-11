@@ -6,6 +6,7 @@ Password Matcher
 
 ```java
 public static HashSet<String> passwords = new HashSet<>();
+```
 
 We just need to populate the `HashSet` by reading all the records from the .txt
 
@@ -25,16 +26,18 @@ public static void readPasswords(String filename){
        e.printStackTrace();
    }
 }
+```
 
 Once It’s populated we can simply query the `HashSet` to find a specific “String”.
 
 ```java
-  String pwdText = passwordField.getText();
+String pwdText = passwordField.getText();
 
-  // Check if entered password exists in Hashset
-  if (LoginFrame.passwords.contains(pwdText)) {
-     JOptionPane.showMessageDialog(this, "Password found !!");
-  }
-  else {
-     JOptionPane.showMessageDialog(this, "Password not found !!");
-  }
+// Check if entered password exists in Hashset
+if (LoginFrame.passwords.contains(pwdText)) {
+   JOptionPane.showMessageDialog(this, "Password found !!");
+}
+else {
+   JOptionPane.showMessageDialog(this, "Password not found !!");
+}
+```
